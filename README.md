@@ -1,5 +1,10 @@
 # Instrumenting-KVM
 
+This is to add counters into the KVM that track the following information:
+• Total number of exits (for each type of exit KVM enables)
+• Max/Min/Average number of CPU cycles for each exit type
+• Total amount of cycles spent processing all exits
+
 The following procedure describes the steps followed to develop and test the kernel module:
 1)	Install packages necessary to compile the linux kernel from source:
 >> sudo apt­get install git build­essential kernel­package fakeroot libncurses5­dev libssl­dev ccache
