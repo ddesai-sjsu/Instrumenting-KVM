@@ -73,5 +73,6 @@ Now to test this change to CPUID.c create a VM (let’s call it VM-1).
 15)	Boot the test VM and check dmesg in the Host VM.
 >> dmesg
 
-Sample of print output from dmesg
+### Sample of print output from dmesg
+
 ![1](https://user-images.githubusercontent.com/25673997/51422608-3b7a5d80-1b66-11e9-9ced-7ff97c330fbd.png)
